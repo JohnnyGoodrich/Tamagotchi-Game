@@ -1,0 +1,9 @@
+1. page should open and the user should be given the option to name their Tamagotchi
+2. After naming, the user should be taken to the main gameplay screen
+    a. idea - the Tamagotchi will be hatched? Born? some sort of image/animation
+3. The image of the Tamagotchi, it's stats (age, sleepiness, boredom, hunger)
+    a the stats will be starting at 0 and increasing to 10 on the screen
+4. The directions will be displayed on this screen
+    a. the user will have the ability to "feed your pet, turn off the lights, and play with your pet"
+5. if the stats bar for any of the Tamagotchi's stats reach 10, the Tamagotchi will directions
+    a. a new page or image of the Tamagotchi will appear and a message will appear that annouces the end of the game
