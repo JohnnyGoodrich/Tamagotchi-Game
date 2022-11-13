@@ -1,0 +1,30 @@
+body {
+    min-height: 100vh;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/848/877/189/8-bit-artwork-sky-landscape-wallpaper-preview.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.startButton {
+    position: relative;
+    font-family: 'Press Start 2P', cursive;
+    padding: 50px;
+}
+
+#start {
+    height: 100px;
+    width: 220px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: large;
+}
+.int {
+    font-family: 'Press Start 2P', cursive;
+    padding: 100px 0 20px 0;
+    color: white;
+}
+.intText {
+    padding: 0 100px 0 100px;
+    color: white;
+    
+}
