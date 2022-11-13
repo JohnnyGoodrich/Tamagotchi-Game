@@ -1,0 +1,42 @@
+html {
+    height: 100%;
+}
+
+.age{
+    font-family: 'Press Start 2P', cursive;
+    color:white;
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px 20px 20px 20px;
+}
+
+body {
+    min-height: 100%;
+    text-align: center;
+    /* background-color:forestgreen; */
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/848/877/189/8-bit-artwork-sky-landscape-wallpaper-preview.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.name {
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+}
+
+.buttons{
+    font-family: 'Press Start 2P', cursive;
+    padding: 30px;
+    
+}
+
+.stats {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Press Start 2P', cursive;
+    padding: 200px 0 0 0;
+}
+
+/**/
+
