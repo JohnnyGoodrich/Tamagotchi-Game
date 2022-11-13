@@ -33,12 +33,14 @@ function ageNum(){
     age++;
     document.querySelector(".age").innerText = `Age: ${age}`
 console.log(age)
-    if (age>10&&age<30){
+    if (age>10&&age<20){
         image.src = "https://media0.giphy.com/media/cAb8ZkA6LXqOA/giphy.gif?cid=790b7611b6e77b9219f776085f02c03bae091beea531e2e9&rid=giphy.gif&ct=g"
-    }else if (age>=30)
+    }else if (age>=20&&age<35){
+        image.src = "https://media2.giphy.com/media/NKXh3MVr6htmysO4p5/giphy.gif?cid=790b76112a9c020a4cb242dfeb86db7dadc59e71641aa06d&rid=giphy.gif&ct=g"
+    }else if (age>=35){
         image.src = "https://media3.giphy.com/media/u5YIlhcSar0qI/giphy.gif?cid=790b7611705b7119227ac4456a03e236327eceadfbc21c60&rid=giphy.gif&ct=g"
-}
-// const endAge = setInterval(ageNum, 500)
+    }}
+        // const endAge = setInterval(ageNum, 1000)
 
 // Button Functions
 function decreaseNumber() {
@@ -72,9 +74,6 @@ function decreaseBoredom() {
   console.log(num3)
     }}
 playBtn.addEventListener("click", decreaseBoredom)
-
-
-
 
 
 
@@ -128,7 +127,7 @@ function endGame(){
     if (num1>10||num2>10||num3>10){
       
         clearInterval(endHunger);
-        alert("GAME OVER!")
+        // alert("GAME OVER!")
         clearInterval(endLight);
         clearInterval(endPlay);
         clearInterval(endAge);
