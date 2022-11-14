@@ -4,22 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./start.css">
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel=”stylesheet” href=”dist/test-tube.css” />
+    
+    <title>Tamagotchi Game</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
-    <H2 class="int">Instructions:</H2>
-        <p class="intText">Welcome to my Tomagotchi game! 
-            Press the buttons at the bottom of the page to Feed
-            your pet, Turn of the lights, and play with your pet. This will lower 
-            your pet's hunger, sleepiness, and boredom. Be careful! if any of
-            numbers reach 10, it's game over!
-        </p>
-    <div class="startButton">
-        <a href="file:///Users/johngoodrich/Seir1031/deliverables/Tamagachi/game.html">
-            <button id="start">START GAME</button>
-        </a>    
+    <div class="container">
+        <div class="age">Age: 0</div>
+    <h2 class="name">Name</h2>
+    <div class="image">
+        <img class="gif" src="https://media3.giphy.com/media/r3JIPuXMinH0I/giphy.gif?cid=790b76111004bf05d20697a1abd1445b25d52b27dbe123c9&rid=giphy.gif&ct=g" max-width="200"height="200"></img>
     </div>
+    <div class="stats">
+        <div class="hunger-num"data -value="50"data-preset="energy">Hunger: 1</div>
+        <div class="sleep-num">Sleepiness: 1</div>
+        <div class="boredom-num">Boredom: 1</div>
+    </div>    
+
+   
+    <div class="buttons">
+        <button id="feed-your-pet">Feed your pet</button>
+        <button id="turn-off-lights">Turn off the lights</button>
+        <button id="play-with-your-pet">Play with your pet</button>
+    </div>
+    <!--  -->
+ </div>
+    <script src="./main.js"></script>
 </body>
 </html>
